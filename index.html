@@ -11,10 +11,119 @@
 
 
 <body>
-    <header>
-        <nav class="navbar-default">
-            
+    <header> <!--Begin Navbar-->
+        <h1 class = 'logo'>Hudson Buffet</h1>
+        <input type="checkbox" id="nav-toggle" class ='nav-toggle'>
+        <nav>
+            <div class='nav-buttons'>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="take_out_menu.html">Take-out Menu</a> </li>
+                    <li><a href="photos.html">Photos</a> </li>
+                </ul>
+            </div>
         </nav>
-    </header>
+        <label for="nav-toggle" class="nav-toggle-label" >
+            <span></span>
+        </label>
+    </header> <!--End Navbar-->
+
+    <div class="main-content"> <!--Begin Main Content-->
+        <div class="level-one">
+            <div class="hours-block grid-col-span-2">
+                <div class="hours">
+                    <span><h2>Hours:</h2></span>
+                    <p>Sun - Thurs: 11:00AM - 9:30PM<br>
+                    Fri - Sat: 11:00AM - 10:00PM
+                    </p>
+                </div>
+                <span id="tel">Tel: 845-896-8008</span> <br> 
+                <button id="call-button">Call</button>
+                <p id="follow-message">Follow us on Facebook!</p>
+                <div class="fb-icon">
+                    <img id='fb-icon' src="" alt="">
+                </div>
+            </div>
+
+            <div class="jumbotron grid-col-span-2">
+                <span id="jumbotron-text">Welcome to Hudson Buffet!</span>
+            </div>
+        </div>
+
+        <div class="level-two">
+            <div class="banner"> 
+                <h2>All You Can You Buffet!<br>250+ Items!<br>Perfect for Birthdays, parties, anniversaries and more!</h2>
+                <div class=circles>
+                    <span id='cirle-one' class="circle">Mongolian Grill</span>
+                    <span id='cirle-two' class="circle">Large Sushi Selection</span>
+                    <span id='cirle-three' class="circle">Fresh Desserts</span>
+                    <span id='cirle-four' class="circle">Something</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="level-three buffet-prices">
+            <div class="price lunch-buffet-price">
+                <section>
+                    <span class="lunch-buffet-subheading">Lunch Buffet</span><br>
+                    <span>Mon - Thurs</span><br>
+                    Adults .................... $12.99 <br>
+                    Kids: <br>
+                    6-10 ....................... $10.99 <br>
+                    2-5 ......................... $ 6.99 <br>
+                    <span>Fri - Sun</span><br>
+                    Adults .................... $12.99<br>
+                    Kids:<br>
+                    6-10 ....................... $10.99 <br>
+                    2-5 ......................... $ 6.99 <br>
+                </section>
+            </div>
+            <div class="price dinner-buffet-price">
+                <section>
+                    <span class="dinner-buffet-subheading">Dinner Buffet</span><br>
+                    <span>Mon - Thurs</span> <br>
+                    Adults .................... $12.99 <br>
+                    Kids: <br>
+                    9-11 ........................ $14.99<br>
+                    6-10 ....................... $10.99<br>
+                    2-5 ......................... $ 6.99<br>
+                    <span>Fri - Sun</span><br>
+                    Adults .................... $12.99<br>
+                    Kids:<br>
+                    9-11 ........................ $14.99<br>
+                    6-10 ....................... $10.99<br>
+                    2-5 ......................... $ 6.99<br>
+                </section>
+            </div>
+            <div class="price to-go-price">
+                <section>
+                    <span class="to-go-subheading">To-go</span><br>
+                    <span>Lunch</span><br>
+                    Regular ................... $6.49 <br>
+                    Mixed ...................... $8.99 <br>
+                    Seafood .................. $12.99 <br>
+                    Sushi (8 pc)............. $ 5.99 <br>
+                    <span>Dinner</span><br>
+                    Regular ................... $6.99 <br>
+                    Mixed ...................... $8.99 <br>
+                    Seafood .................. $12.99 <br>
+                    Sushi (8 pc)............. $ 5.99 <br>
+                </section>
+            </div>
+        </div>
+        
+    </div> <!--End Main Content-->
+
+    <div class="footer"> <!--Begin Footer-->
+        <div class="footer-text">
+        Location | Contact | Privacy Policy
+        <p>
+        &copy; New Hudson Family Restaurant Inc | Website by Jason Chen
+        </p>
+        </div>
+    </div> <!--End Footer-->
+
+
+    
 </body>
 </html>
