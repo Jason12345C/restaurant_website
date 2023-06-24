@@ -1,0 +1,6 @@
+/gulpfile.js
+node_modules/
+/package-lock.json
+/package.json
+/test_image.jpg 
+/test_image2.jpg
