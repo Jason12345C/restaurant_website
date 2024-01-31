@@ -3,32 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/location.css">
     <title>Hudson Buffet</title>
     <script src="js/script.js"></script>
 </head>
 
-
 <body>
-    <header>
+    <header> <!--Begin Navbar-->
         <a href='index.html' class ='logo'> <h1> Hudson Buffet</h1> </a>
+        <div class="fb-icon-nav">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="https://www.facebook.com/hudsonbuffet/" class="fa fa-facebook"></a>
+        </div>
         <input type="checkbox" id="nav-toggle" class ='nav-toggle'>
+ 
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="take_out_menu.html">Take-out Menu</a> </li>
-                <li><a href="#lunch-buffet">Buffet Pricing</a></li>
-                <li><a href="photos.html">Photos</a> </li>
-            </ul>
+
+            <div class='nav-buttons'>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="take_out_menu.html">Take-out Menu</a> </li>
+                    <li><a href="#lunch-buffet">Buffet Pricing</a></li>
+                    <li><a href="photos.html">Photos</a> </li>
+                </ul>
+            </div>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label" >
             <span></span>
         </label>
-    </header>
+    </header> <!--End Navbar-->
     
     <div class="main-content">
-        <a href="https://www.google.com/maps/place/Hudson+Buffet/@41.5286056,-73.8946622,17z/data=!3m1!4b1!4m6!3m5!1s0x89dd36fc398c602f:0x929fb2bcf9639a91!8m2!3d41.5286056!4d-73.8946622!16s%2Fg%2F1tdxlwgg?entry=ttu" target="_blank"></a>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2986.8769680858854!2d-73.8946622!3d41.5286056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd36fc398c602f%3A0x929fb2bcf9639a91!2sHudson%20Buffet!5e0!3m2!1sen!2sus!4v1688419497159!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-text">We're located at: 18 Westage Business Ctr Dr. Fishkill, NY 12524</div>
+        <div class="map-text">Right next to Dunkin' Donut and across from Walmart</div>
+        <div class="map">
+            <a href="https://www.google.com/maps/place/Hudson+Buffet/@41.5286056,-73.8946622,17z/data=!3m1!4b1!4m6!3m5!1s0x89dd36fc398c602f:0x929fb2bcf9639a91!8m2!3d41.5286056!4d-73.8946622!16s%2Fg%2F1tdxlwgg?entry=ttu" target="_blank"></a>
+            <iframe id='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2986.8769680858854!2d-73.8946622!3d41.5286056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd36fc398c602f%3A0x929fb2bcf9639a91!2sHudson%20Buffet!5e0!3m2!1sen!2sus!4v1688419497159!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
     </div>
+
+    <footer class="footer"> <!--Begin Footer-->
+        <div class="footer-text">
+            <div class="footer-links">
+                <a href="location.html">Location</a>
+                |<a href="tel:845-896-8008"> Contact</a> | 
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </div>
+
+            <p>
+            &copy; 2023 New Hudson Family Restaurant Inc. All Rights Reserved | Website by Jason Chen
+            </p>
+        </div>
+    </footer> <!--End Footer-->
+
 </body>
 </html>
